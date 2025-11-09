@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Construyendo el proyecto...'
+                echo 'Validando triggers...'
             }
         }
         stage('Test') {
